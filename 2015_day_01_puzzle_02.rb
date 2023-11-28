@@ -5,7 +5,7 @@ puzzle_input = raw_input.split("")
 floor_num = 0
 char_pos = 0
 while char_pos < puzzle_input.length and floor_num >= 0
-    case puzzle_input[char_pos]
+    case puzzle_input.at(char_pos)
     when '(' then
         floor_num += 1
     when ')' then

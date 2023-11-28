@@ -4,7 +4,7 @@ puzzle_input = raw_input.split("")
 
 floor_num = 0
 for i in (0...puzzle_input.length)
-    case puzzle_input[i]
+    case puzzle_input.at(i)
     when '(' then
         floor_num += 1
     when ')' then
