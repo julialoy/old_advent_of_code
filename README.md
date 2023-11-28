@@ -1,0 +1,1 @@
+Puzzles for past Advent of Code events, done for fun after the event finished.
